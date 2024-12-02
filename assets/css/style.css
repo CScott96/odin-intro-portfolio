@@ -1,7 +1,22 @@
 :root {
     --font-family: "Roboto", sans-serif;
+    --drk-color: #1F2937;
+    --hero-font-color: #F9FAF8;
+    --hero-secondary-color: #E5E7EB;
+    --btn-color: #3882F6;
 }
 
 body {
     font-family: var(--font-family);
+    color: var(--drk-color);
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 }
