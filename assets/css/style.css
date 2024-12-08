@@ -200,4 +200,16 @@ body {
             }
         }
     }
+    & footer {
+        background-color: var(--drk-color);
+        text-align: center;
+        padding: 2em 0;
+        & p {
+            margin: 0;
+            text-align: center;
+            color: var(--hero-secondary-color);
+            font-weight: 300;
+
+        }
+    }
 }
